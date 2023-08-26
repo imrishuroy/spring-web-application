@@ -29,4 +29,9 @@ public class HomeController {
         // redirecting to homepage
         return "redirect:/";
     }
+
+    @GetMapping("/react")
+    public String react(){
+        return "react";
+    }
 }

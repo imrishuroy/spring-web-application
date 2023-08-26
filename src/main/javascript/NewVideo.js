@@ -23,6 +23,7 @@ class NewVideo extends React.Component {
             body: JSON.stringify({name: this.state.name})
         }).then(response =>
             window.location.href = "/react")
+
     }
 
     render() {
